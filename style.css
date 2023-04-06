@@ -1,0 +1,23 @@
+/*Generic rules*/
+:root{
+    box-sizing: border-box;
+}
+*,::before,::after{
+    box-sizing: inherit;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+body{
+    background-color: #709b90;
+    font-family: Calibri,sans-serif;
+}
+/*-----------Style----------*/
+/*GRID*/
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(4,auto);
+    grid-gap: 1.5em;
+}
